@@ -356,7 +356,8 @@ void Game::show_score() {
     TTF_Font* amatic_bold = TTF_OpenFont("graphics/fonts/Amatic-Bold.ttf", 60); 
     char score_num[6];
     strcpy(score_text, "Score: ");
-    strcat(score_text, itoa(score_number, score_num, 10));
+    //strcat(score_text, itoa(score_number, score_num, 10));
+    strcat(score_text, _itoa(score_number, score_num, 10));
     surface_score = TTF_RenderText_Blended(amatic_bold, score_text, dark_blue);
     score = SDL_CreateTextureFromSurface(renderer, surface_score);
     score_rect.w = surface_score->w;
@@ -366,7 +367,8 @@ void Game::show_score() {
     venom_head->draw(renderer);
     char lives_num[3];
     strcpy(lives_text, "X");
-    strcat(lives_text, itoa(lives_number, lives_num, 10));
+    //strcat(lives_text, itoa(lives_number, lives_num, 10));
+    strcat(lives_text, _itoa(lives_number, lives_num, 10));
     surface_lives = TTF_RenderText_Blended(amatic_bold, lives_text, dark_blue);
     lives_texture = SDL_CreateTextureFromSurface(renderer, surface_lives);
     lives_rect.w = surface_lives->w;
