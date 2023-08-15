@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameObj">
+      <UniqueIdentifier>{97e3a74f-4848-4bb4-b35a-198aa6f7daf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{ff86bd07-3815-4e2c-8486-75921914fccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{2cac610e-7749-48ee-9cc0-60375396d3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{62fbd86c-7902-4455-bc8d-3e5298c2e31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Animation">
+      <UniqueIdentifier>{48ce50f8-b65b-42b0-b79e-6232cdc28a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{dedc8be1-62cc-41a3-aff8-4278ce370f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Settings">
+      <UniqueIdentifier>{b23c14bb-9e57-43e7-939e-a7e5a1329e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpriteLoader">
+      <UniqueIdentifier>{0144d7e1-11d3-47ab-bafe-398005e1db81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Groups">
+      <UniqueIdentifier>{380ae61c-d9b1-42da-80e4-1fe2b14f1400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Random">
+      <UniqueIdentifier>{1333cb17-618c-4c4a-a3b4-e219fd519d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecialMove">
+      <UniqueIdentifier>{cdd34091-65f7-4ceb-9857-0aeaf50f33dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjectileMessage">
+      <UniqueIdentifier>{2b018585-e2fa-49da-b091-419cb3e257c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fighter_0">
+      <UniqueIdentifier>{7c76e2d5-0162-4cb6-8e2f-f13840a34f19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImpactEffect_Hit_0">
+      <UniqueIdentifier>{80182361-cfd5-4e6b-8c5f-6c2e6f13d720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Fighter_1">
+      <UniqueIdentifier>{9bd47085-0020-4465-aad6-c944e2bad406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hadouken">
+      <UniqueIdentifier>{ad0f771c-2ad4-4cd6-9e5c-481941152952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CheckCollisionMessage">
+      <UniqueIdentifier>{e264953f-143b-4fbd-8959-ce49dcfdda3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\FightersGroup">
+      <UniqueIdentifier>{5755e6f5-2db0-4029-b4f6-5d1a4000e23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ProjectilesGroup">
+      <UniqueIdentifier>{d8b76bcc-8c88-4286-8f26-1f5ddce60989}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationController.cpp">
+      <Filter>Source Files\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteLoader.cpp">
+      <Filter>Source Files\SpriteLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="DevSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBuffer.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>Source Files\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjGroup.cpp">
+      <Filter>Source Files\Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="ImpactEffectsGroup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagonalOverlap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>Source Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjData.cpp">
+      <Filter>Source Files\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="FightScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="StateController.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="FightersGroup.cpp">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileGroup.cpp">
+      <Filter>Source Files\ProjectilesGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="FightersHitStopMessage.cpp">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectilesHitStopMessage.cpp">
+      <Filter>Source Files\ProjectilesGroup</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="OffsetType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenVector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Idle.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationController.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSpecs.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationStatus.h">
+      <Filter>Source Files\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="olcPixelGameEngine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_WalkForward.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jab.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyType.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DevSettings.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetBodyType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringNotification.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteLoader.h">
+      <Filter>Source Files\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteType.h">
+      <Filter>Source Files\SpriteLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_WalkBack.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInput.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Directions.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="DummySelector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_HitReaction_Side.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBuffer.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputType.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputElement.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Hadouken_Fire.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Hadouken_Recover.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertedInputType.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateProjectileMessage.h">
+      <Filter>Source Files\ProjectileMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileType.h">
+      <Filter>Source Files\ProjectileMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="Hadouken_MoveForward.h">
+      <Filter>Source Files\Hadouken</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMode.h">
+      <Filter>Source Files\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpactEffect_Hit_0.h">
+      <Filter>Source Files\ImpactEffect_Hit_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Normalize.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Prep_Vertical.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Up_Vertical.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Fall.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Prep_Forward.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Up_Forward.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Prep_Back.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_Up_Back.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Jump_WeakPunch.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Crouch.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomInteger.h">
+      <Filter>Source Files\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_Uppercut.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_0_HitReaction_Up.h">
+      <Filter>Source Files\Fighter_0</Filter>
+    </ClInclude>
+    <ClInclude Include="Preload_Fighter_0.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeCollisionResult.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Updater.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerToPlayerCollision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeReaction.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerToProjectileCollision.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerToProjectileCollisionResult.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpSpecs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileCollisionReaction.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IGroupComponent.h">
+      <Filter>Source Files\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjGroup.h">
+      <Filter>Source Files\Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImpactEffectsGroup.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagonalOverlap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderLoader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>Source Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjData.h">
+      <Filter>Source Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerType.h">
+      <Filter>Source Files\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpCalculator.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>Source Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="FightScene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBoxEditorScene.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferChecker.h">
+      <Filter>Source Files\SpecialMove</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialMove.h">
+      <Filter>Source Files\SpecialMove</Filter>
+    </ClInclude>
+    <ClInclude Include="Hadouken.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="StateController.h">
+      <Filter>Source Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter_1_Idle.h">
+      <Filter>Source Files\Fighter_1</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckCollisionMessage.h">
+      <Filter>Source Files\CheckCollisionMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageData.h">
+      <Filter>Source Files\CheckCollisionMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="FightersGroup.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterJump.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterDirection.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="FighterGroundToGroundCollision.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialMoveProcessor.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBufferRenderer.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="FightersFixedUpdater.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileGroup.h">
+      <Filter>Source Files\ProjectilesGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilesFixedUpdater.h">
+      <Filter>Source Files\ProjectilesGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="HitStopMessage.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FightersHitStopMessage.h">
+      <Filter>Source Files\FightersGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="StopCountData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectilesHitStopMessage.h">
+      <Filter>Source Files\ProjectilesGroup</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionStay.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidingSideType.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreviousPositionRenderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BottomSegments.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBase.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyToBodyCollisions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

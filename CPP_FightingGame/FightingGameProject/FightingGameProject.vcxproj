@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{93d7307c-1ea8-4d60-8db8-201cd0323a0b}</ProjectGuid>
+    <RootNamespace>FightingGameProject</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard_C>Default</LanguageStandard_C>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationController.cpp" />
+    <ClCompile Include="BoxCollider.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DevSettings.cpp" />
+    <ClCompile Include="DiagonalOverlap.cpp" />
+    <ClCompile Include="FightersHitStopMessage.cpp" />
+    <ClCompile Include="InputData.cpp" />
+    <ClCompile Include="GameSettings.cpp" />
+    <ClCompile Include="ImpactEffectsGroup.cpp" />
+    <ClCompile Include="InputBuffer.cpp" />
+    <ClCompile Include="JumpCalculator.cpp" />
+    <ClCompile Include="ObjData.cpp" />
+    <ClCompile Include="ObjGroup.cpp" />
+    <ClCompile Include="ProjectileGroup.cpp" />
+    <ClCompile Include="ProjectilesHitStopMessage.cpp" />
+    <ClCompile Include="SpriteLoader.cpp" />
+    <ClCompile Include="FightersGroup.cpp" />
+    <ClCompile Include="FightScene.cpp" />
+    <ClCompile Include="GameObj.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneController.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="StateController.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="AnimationController.h" />
+    <ClInclude Include="AnimationRenderer.h" />
+    <ClInclude Include="AnimationStatus.h" />
+    <ClInclude Include="BodyToBodyCollisions.h" />
+    <ClInclude Include="BottomSegments.h" />
+    <ClInclude Include="BoxCollider.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="BodyType.h" />
+    <ClInclude Include="ColliderLoader.h" />
+    <ClInclude Include="CheckCollisionMessage.h" />
+    <ClInclude Include="BufferChecker.h" />
+    <ClInclude Include="CollidingSideType.h" />
+    <ClInclude Include="CollisionData.h" />
+    <ClInclude Include="CollisionStay.h" />
+    <ClInclude Include="FightersHitStopMessage.h" />
+    <ClInclude Include="HitStopMessage.h" />
+    <ClInclude Include="MeleeCollisionResult.h" />
+    <ClInclude Include="DamageData.h" />
+    <ClInclude Include="FightersFixedUpdater.h" />
+    <ClInclude Include="FighterDirection.h" />
+    <ClInclude Include="FighterGroundToGroundCollision.h" />
+    <ClInclude Include="FighterJump.h" />
+    <ClInclude Include="Fighter_0_Crouch.h" />
+    <ClInclude Include="Fighter_0_HitReaction_Up.h" />
+    <ClInclude Include="Fighter_0_Jump_Fall.h" />
+    <ClInclude Include="Fighter_0_Jump_Prep_Back.h" />
+    <ClInclude Include="Fighter_0_Jump_Prep_Forward.h" />
+    <ClInclude Include="Fighter_0_Jump_Prep_Vertical.h" />
+    <ClInclude Include="Fighter_0_Jump_Up_Back.h" />
+    <ClInclude Include="Fighter_0_Jump_Up_Forward.h" />
+    <ClInclude Include="Fighter_0_Jump_Up_Vertical.h" />
+    <ClInclude Include="Fighter_0_Jump_WeakPunch.h" />
+    <ClInclude Include="Fighter_0_Uppercut.h" />
+    <ClInclude Include="IGroupComponent.h" />
+    <ClInclude Include="ImpactEffectsGroup.h" />
+    <ClInclude Include="JumpSpecs.h" />
+    <ClInclude Include="MeleeReaction.h" />
+    <ClInclude Include="ObjBase.h" />
+    <ClInclude Include="ObjType.h" />
+    <ClInclude Include="ImpactEffect_Hit_0.h" />
+    <ClInclude Include="InputBufferRenderer.h" />
+    <ClInclude Include="JumpCalculator.h" />
+    <ClInclude Include="Normalize.h" />
+    <ClInclude Include="PlayerToPlayerCollision.h" />
+    <ClInclude Include="PlayerToProjectileCollision.h" />
+    <ClInclude Include="PlayerToProjectileCollisionResult.h" />
+    <ClInclude Include="PreviousPositionRenderer.h" />
+    <ClInclude Include="ProjectileCollisionReaction.h" />
+    <ClInclude Include="ProjectilesFixedUpdater.h" />
+    <ClInclude Include="ProjectilesHitStopMessage.h" />
+    <ClInclude Include="RandomInteger.h" />
+    <ClInclude Include="SpecialMove.h" />
+    <ClInclude Include="ConvertedInputType.h" />
+    <ClInclude Include="CreateProjectileMessage.h" />
+    <ClInclude Include="BoxRenderer.h" />
+    <ClInclude Include="DevSettings.h" />
+    <ClInclude Include="DiagonalOverlap.h" />
+    <ClInclude Include="Directions.h" />
+    <ClInclude Include="DummySelector.h" />
+    <ClInclude Include="Fighter_0_Hadouken_Fire.h" />
+    <ClInclude Include="Fighter_0_Hadouken_Recover.h" />
+    <ClInclude Include="Fighter_0_HitReaction_Side.h" />
+    <ClInclude Include="Fighter_0_Idle.h" />
+    <ClInclude Include="Fighter_0_Jab.h" />
+    <ClInclude Include="Fighter_0_WalkBack.h" />
+    <ClInclude Include="Fighter_0_WalkForward.h" />
+    <ClInclude Include="Fighter_1_Idle.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="InputData.h" />
+    <ClInclude Include="FightScene.h" />
+    <ClInclude Include="GameObj.h" />
+    <ClInclude Include="FightersGroup.h" />
+    <ClInclude Include="GameSettings.h" />
+    <ClInclude Include="AnimationSpecs.h" />
+    <ClInclude Include="Hadouken.h" />
+    <ClInclude Include="Hadouken_MoveForward.h" />
+    <ClInclude Include="InputElement.h" />
+    <ClInclude Include="InputBuffer.h" />
+    <ClInclude Include="InputType.h" />
+    <ClInclude Include="PlayerInput.h" />
+    <ClInclude Include="HitBoxEditorScene.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="KeyType.h" />
+    <ClInclude Include="ObjData.h" />
+    <ClInclude Include="ObjGroup.h" />
+    <ClInclude Include="OffsetType.h" />
+    <ClInclude Include="olcPixelGameEngine.h" />
+    <ClInclude Include="PlayerType.h" />
+    <ClInclude Include="Preload_Fighter_0.h" />
+    <ClInclude Include="ProjectileGroup.h" />
+    <ClInclude Include="ProjectileType.h" />
+    <ClInclude Include="RenderMode.h" />
+    <ClInclude Include="ScreenVector.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneController.h" />
+    <ClInclude Include="SceneType.h" />
+    <ClInclude Include="SpecialMoveProcessor.h" />
+    <ClInclude Include="SpriteType.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="StateController.h" />
+    <ClInclude Include="StopCountData.h" />
+    <ClInclude Include="StringNotification.h" />
+    <ClInclude Include="TargetBodyType.h" />
+    <ClInclude Include="SpriteLoader.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="UIElement.h" />
+    <ClInclude Include="Updater.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
