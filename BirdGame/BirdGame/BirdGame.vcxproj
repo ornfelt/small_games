@@ -71,10 +71,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\Users\Svea User\source\repos\BirdGame\src\lib_win;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\Svea User\source\repos\BirdGame\src\lib_win;$(LibraryPath);C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\lib_win;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\lib_win</LibraryPath>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\include_win;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\include_win</IncludePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\Users\Svea User\source\repos\BirdGame\src\lib_win;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(LibraryPath);C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\lib_win;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\lib_win;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\lib_win</LibraryPath>
+    <IncludePath>C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\include_win;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\include_win;C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\BirdGame\src\include_win</IncludePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

@@ -1,5 +1,12 @@
 # Game about a flying dog dealing with enemies
 
+##
+
+MSVS config:
+
+![](ms_config.png)
+
+
 ![](Gameplay_gif.gif)
 
 Project was created to compare the exact same games written in Python (which you can see [here](https://github.com/MariuszDot/Game_OOP)) and in C/C++. Made entirely from scratch using SDL2 libraries.

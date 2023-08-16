@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\sokol\sokol.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\sokol\sokol_gfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\sokol\sokol_app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\sokol\sokol_audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\sokol\sokol_glue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jonas\OneDrive\Documents\Code\C++\small_games\pacman\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D3B6E164-BEE7-38ED-8A95-65C941AE0E83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5A630A1B-3060-3E4A-86DE-FC007DFD5629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
