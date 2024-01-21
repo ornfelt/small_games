@@ -8,7 +8,7 @@ namespace RB
 	{
 	public:
 		InputType inputType;
-		size_t updateCount = 0;
+		std::size_t updateCount = 0;
 		bool processed = false;
 
 		InputElement(InputType _inputType)

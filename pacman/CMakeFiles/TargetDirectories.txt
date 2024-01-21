@@ -1,4 +1,4 @@
-C:/Users/jonas/OneDrive/Documents/Code/C++/small_games/pacman/CMakeFiles/sokol.dir
-C:/Users/jonas/OneDrive/Documents/Code/C++/small_games/pacman/CMakeFiles/pacman.dir
-C:/Users/jonas/OneDrive/Documents/Code/C++/small_games/pacman/CMakeFiles/ALL_BUILD.dir
-C:/Users/jonas/OneDrive/Documents/Code/C++/small_games/pacman/CMakeFiles/ZERO_CHECK.dir
+/home/jonas/Code2/C++/small_games/pacman/CMakeFiles/sokol.dir
+/home/jonas/Code2/C++/small_games/pacman/CMakeFiles/pacman.dir
+/home/jonas/Code2/C++/small_games/pacman/CMakeFiles/edit_cache.dir
+/home/jonas/Code2/C++/small_games/pacman/CMakeFiles/rebuild_cache.dir

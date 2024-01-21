@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsokol.a CMakeFiles/sokol.dir/sokol/sokol.c.o
+/usr/bin/ranlib libsokol.a

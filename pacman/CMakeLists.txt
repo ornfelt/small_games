@@ -49,5 +49,6 @@ endif()
 
 # explicitly strip dead code
 if (CMAKE_C_COMPILER_ID MATCHES "Clang" AND NOT CMAKE_SYSTEM_NAME STREQUAL Emscripten)
-    target_link_options(pacman PRIVATE LINKER:-dead_strip)
+	#target_link_options(pacman PRIVATE LINKER:-dead_strip)
+	target_link_options(pacman PRIVATE)
 endif()

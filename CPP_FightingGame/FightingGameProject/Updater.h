@@ -7,7 +7,7 @@ namespace RB
 	class Updater
 	{
 	protected:
-		size_t _updaterUpdateCount = 0;
+		std::size_t _updaterUpdateCount = 0;
 		int32_t _stopCount = 0;
 		std::vector<StopCountData> _vecStopCounts;
 
@@ -33,9 +33,9 @@ namespace RB
 		{
 			//wait 1 frame before adding hitstops
 
-			std::vector<size_t> deleteIndexes;
+			std::vector<std::size_t> deleteIndexes;
 
-			for (size_t i = 0; i < _vecStopCounts.size(); i++)
+			for (std::size_t i = 0; i < _vecStopCounts.size(); i++)
 			{
 				if (_vecStopCounts[i].oneFrameSkipped)
 				{
@@ -49,7 +49,7 @@ namespace RB
 				}
 			}
 
-			for (size_t i = 0; i < deleteIndexes.size(); i++)
+			for (std::size_t i = 0; i < deleteIndexes.size(); i++)
 			{
 				if (_vecStopCounts.size() > deleteIndexes[i])
 				{

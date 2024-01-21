@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic -Xlinker -dead_strip CMakeFiles/pacman.dir/pacman.c.o -o pacman  libsokol.a -lX11 -lXi -lXcursor -lGL -lasound -ldl -lm 

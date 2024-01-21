@@ -13,6 +13,7 @@
 #include <memory>
 #include <vector>
 #include <algorithm>
+#include <cstring>
 
 class Game {
 private:

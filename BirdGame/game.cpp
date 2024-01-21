@@ -1,4 +1,6 @@
 #include "game.h"
+#include <string>
+#include <cstring>
 
 SDL_Renderer *Game::renderer{nullptr};
 
@@ -357,7 +359,10 @@ void Game::show_score() {
     char score_num[6];
     strcpy(score_text, "Score: ");
     //strcat(score_text, itoa(score_number, score_num, 10));
-    strcat(score_text, _itoa(score_number, score_num, 10));
+    //strcat(score_text, _itoa(score_number, score_num, 10));
+    std::string score_num_str = std::to_string(score_number);
+    strcat(score_text, score_num_str.c_str());
+
     surface_score = TTF_RenderText_Blended(amatic_bold, score_text, dark_blue);
     score = SDL_CreateTextureFromSurface(renderer, surface_score);
     score_rect.w = surface_score->w;
@@ -368,7 +373,10 @@ void Game::show_score() {
     char lives_num[3];
     strcpy(lives_text, "X");
     //strcat(lives_text, itoa(lives_number, lives_num, 10));
-    strcat(lives_text, _itoa(lives_number, lives_num, 10));
+    //strcat(lives_text, _itoa(lives_number, lives_num, 10));
+    std::string lives_num_str = std::to_string(lives_number);
+    strcat(lives_text, lives_num_str.c_str());
+
     surface_lives = TTF_RenderText_Blended(amatic_bold, lives_text, dark_blue);
     lives_texture = SDL_CreateTextureFromSurface(renderer, surface_lives);
     lives_rect.w = surface_lives->w;

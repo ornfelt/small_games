@@ -1,4 +1,11 @@
 #include "gameOutro.h"
+#include <cstring>
+#include <string>
+
+#if !defined(_MSC_VER)
+    auto strcpy_s = strcpy;
+    auto strcat_s = strcat;
+#endif
 
 GameOutro::GameOutro()
 :GameIntro::GameIntro(), end{false}{}
@@ -82,8 +89,11 @@ void GameOutro::display_text(int score) {
     //strcpy(score_text, "Congrats!   You scored  ");
     strcpy_s(score_text, "Congrats!   You scored  ");
     //strcat(score_text, itoa(score, score_num, 10));
-    strcat_s(score_text, _itoa(score, score_num, 10));
+    //strcat_s(score_text, _itoa(score, score_num, 10));
     //strcat(score_text, "  points !");
+    std::string score_num_str = std::to_string(score);
+    strcat(score_text, score_num_str.c_str());
+
     strcat_s(score_text, "  points !");
     congrat_surf = TTF_RenderText_Blended(amatic_bold, score_text, dark_blue);
     congrat_texture = SDL_CreateTextureFromSurface(renderer, congrat_surf);
