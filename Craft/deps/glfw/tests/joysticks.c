@@ -29,10 +29,12 @@
 //========================================================================
 
 #include <GLFW/glfw3.h>
+#include "../../../fallback_str.h"
 
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <strings.h>
 
 #ifdef _MSC_VER
 #define strdup(x) _strdup(x)

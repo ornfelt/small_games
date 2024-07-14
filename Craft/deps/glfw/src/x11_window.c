@@ -26,6 +26,7 @@
 //========================================================================
 
 #include "internal.h"
+#include "../../../fallback_str.h"
 
 #include <X11/cursorfont.h>
 #include <X11/Xmd.h>

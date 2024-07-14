@@ -26,13 +26,13 @@
 //========================================================================
 
 #include "internal.h"
+#include "../../../fallback_str.h"
 
 #include <math.h>
 #include <float.h>
 #include <string.h>
 #include <stdlib.h>
 #include <limits.h>
-
 
 // Lexical comparison function for GLFW video modes, used by qsort
 //

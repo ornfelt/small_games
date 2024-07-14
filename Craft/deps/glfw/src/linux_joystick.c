@@ -26,6 +26,7 @@
 //========================================================================
 
 #include "internal.h"
+#include "../../../fallback_str.h"
 
 #if defined(__linux__)
 #include <linux/joystick.h>
@@ -41,7 +42,6 @@
 #include <string.h>
 #include <unistd.h>
 #endif // __linux__
-
 
 // Attempt to open the specified joystick device
 //
