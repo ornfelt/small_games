@@ -4,3 +4,7 @@
 **/x64/
 **/Debug/
 **/Release/
+BirdGame/main
+Craft/deps
+Craft/CMakeDoxyfile.in
+Craft/CMakeDoxygenDefaults.cmake
