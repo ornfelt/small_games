@@ -5,7 +5,11 @@ cmake_minimum_required(VERSION 2.8.12)
 if (NOT CMAKE_VERSION VERSION_LESS "3.0")
     # Until all major package systems have moved to CMake 3,
     # we stick with the older INSTALL_NAME_DIR mechanism
-    #cmake_policy(SET CMP0042 OLD)
+    if(CMAKE_VERSION VERSION_GREATER_EQUAL "4.0")
+        message(STATUS "CMake version is 4.0 or higher")
+    else()
+        cmake_policy(SET CMP0042 OLD)
+    endif()
 endif()
 
 set(GLFW_VERSION_MAJOR "3")
